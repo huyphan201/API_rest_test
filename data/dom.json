@@ -1,0 +1,9 @@
+{ "js_web":[
+    { 
+            "web_name": "tienphong",
+            "link_domain": "https://tienphong.vn",
+            "cate_select": "ul.menu li a",
+            "links_select": "article.story h3 a"
+    }
+    ]
+    }

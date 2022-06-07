@@ -1,0 +1,63 @@
+{ "js_web":[
+{ 
+        "web_name": "tienphong",
+        "link_domain": "https://tienphong.vn",
+        "cate_select": "ul.menu li a",
+        "links_select": "article.story h3 a"
+},{
+        "web_name": "kenh14",
+        "link_domain": "https://kenh14.vn/",
+        "cate_select": "ul.kbh-menu-list.clearfix.fl a",
+        "links_select": "h3.knswli-title a"
+},{
+        "web_name": "dantri",
+        "link_domain": "https://dantri.com.vn/",
+        "cate_select": "ol.menu-wrap a",
+        "links_select": "h3.article-title a"
+},{
+        "web_name": "vnexpress",
+        "link_domain": "https://vnexpress.net/",
+        "cate_select": "ul.parent li a",
+        "links_select": "h3.title-news a"
+},{
+        "web_name": "thanhnien",
+        "link_domain": "https://thanhnien.vn/",
+        "cate_select": "ul.global-navigation li a",
+        "links_select": "article h2 a"
+},{
+        "web_name": "zingnews",
+        "link_domain": "https://zingnews.vn/",
+        "cate_select": "div.page-wrapper ul a",
+        "links_select": "p.article-title a"
+},{
+        "web_name": "60giay",
+        "link_domain": "https://60giay.com/",
+        "cate_select": "ul.sub-menu-mb-content.mt-20.mx-20 li div a",
+        "links_select": "h3.main-row-three__left-block-title.fs-18.fw-500 a"
+},{
+        "web_name": "phunumoi",
+        "link_domain": "https://phunumoi.net.vn/",
+        "cate_select": "ul.list-unstyled.mainNav a",
+        "links_select": "div.col-xs-12.col-sm-8.col-md-8.news2 a"
+},{
+        "web_name": "kinhdoanhvaphattrien",
+        "link_domain": "https://kinhdoanhvaphattrien.vn/",
+        "cate_select": "ul.wtf-menu li a",
+        "links_select": "div.list-archive div a"
+}
+]}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
