@@ -26,13 +26,16 @@ def get_news():
     for r in rows:
         #get all table news
         data.append({
-            "id": r[0],
-            "title": r[1],
-            "time": r[2],
-            "description": r[3],
-            "image": r[4],
-            "content": r[5],
-            "author": r[6]
+            "title": r[0],
+            "time": r[1],
+            "description": r[2],
+            "image": r[3],
+            "content": r[4],
+            "author": r[5],
+            "tags": r[6],
+            "dom": r[7],
+            "domn_names": r[8],
+            "domn_url": r[9]
         })
 
     return jsonify({"news": data})

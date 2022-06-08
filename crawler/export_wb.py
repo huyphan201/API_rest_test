@@ -19,9 +19,11 @@ class export_web:
 			d = f["web_name"]
 			print("==>",d)
 			co = crawl_link_web(f["link_domain"],f["cate_select"],f["links_select"])
-			li = tuple(set(co.getcate()))
-			ur = tuple(set(co.getlink(li)))
-			
+			try:
+				li = tuple(set(co.getcate()))
+				ur = tuple(set(co.getlink(li)))
+			except:
+				pass
 			for u in ur[:5]:
 				t = sqlite_dt.get_news_urls(d,u)
 		
